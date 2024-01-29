@@ -1,0 +1,455 @@
+<style>
+    .geeks {
+
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .geeks img {
+        transition: 0.25s all ease-in-out;
+    }
+
+    .geeks:hover img {
+        transform: scale(0.5);
+    }
+
+    #add2 {
+        margin-left: -5rem;
+    }
+
+    .cpo{
+        margin: 0;
+        color: #fff;
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+</style>
+<section class="hero py-16">
+    <div class="container mx-auto flex items-center justify-between">
+        <div class="w-1/2">
+            <h6 class="text-lg"><em>Want Something Fresh & Healthy?</em></h6>
+            <h1 class="text-3xl md:text-6xl font-bold">Don't wait !</h1>
+            <button class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary"><a href="#service1">Order
+                    Now</a></button>
+        </div>
+        <div class="w-1/2">
+            <img src="/img/fruit.png" alt="">
+        </div>
+    </div>
+</section>
+<!-- <section class="menu container mx-auto py-8">
+    <h1 class="text-xl font-bold mb-8">All Products</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 col-gap-12 row-gap-16">
+        <% pizzas.forEach(function(pizza) { %>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/<%= pizza.image %>" alt=""></div>
+            <img class="h-40 mb-4 mx-auto" src="/img/<%= pizza.image %>" alt=""> -->
+<!-- <div class="text-center">
+                <h2 class="mb-4 text-lg"><%= pizza.name %></h2>
+                <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= pizza.size %></span>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹<%= pizza.price %></span>
+                    <button data-pizza="<%= JSON.stringify(pizza) %>"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+
+    </div>
+</section> -->
+<section class="menu container mx-auto py-8" id="service1">
+    <h1 class="text-xl font-bold mb-8">All Products</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 col-gap-12 row-gap-16">
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/orange.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/orange.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Orange</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹40</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fa670b368d200ac64390&#34;,&#34;name&#34;:&#34;Orange&#34;,&#34;image&#34;:&#34;orange.png&#34;,&#34;price&#34;:40,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/berry.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/berry.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Stawberry</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹150</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fabb0b368d200ac64391&#34;,&#34;name&#34;:&#34;Stawberry&#34;,&#34;image&#34;:&#34;berry.png&#34;,&#34;price&#34;:150,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/avocado.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/avocado.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Avocado</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹100</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fac20b368d200ac64393&#34;,&#34;name&#34;:&#34;Avocado&#34;,&#34;image&#34;:&#34;avocado.png&#34;,&#34;price&#34;:100,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/cabbage.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/cabbage.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Cabbage</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1pcs</option>
+                    <option value="2">2pcs</option>
+                    <option value="3">3pcs</option>
+                    <option value="3">4pcs</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹60</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fac60b368d200ac64394&#34;,&#34;name&#34;:&#34;Cabbage&#34;,&#34;image&#34;:&#34;cabbage.png&#34;,&#34;price&#34;:60,&#34;size&#34;:&#34;1 pcs&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/apple.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/apple.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Apple</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹100</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377facb0b368d200ac64396&#34;,&#34;name&#34;:&#34;Apple&#34;,&#34;image&#34;:&#34;apple.png&#34;,&#34;price&#34;:100,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/Onion.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Onion.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Onion</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <!-- <span class="size py-1 px-4 rounded-full uppercase text-xs">1KG</span> -->
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹70</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fad00b368d200ac64397&#34;,&#34;name&#34;:&#34;Onion&#34;,&#34;image&#34;:&#34;Onion.png&#34;,&#34;price&#34;:70,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/brocli.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/brocli.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Brocoli</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1pcs</option>
+                    <option value="2">2pcs</option>
+                    <option value="3">3pcs</option>
+                    <option value="3">4pcs</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹90</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fad60b368d200ac64399&#34;,&#34;name&#34;:&#34;Brocoli&#34;,&#34;image&#34;:&#34;brocli.png&#34;,&#34;price&#34;:90,&#34;size&#34;:&#34;1 pcs&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/tomato.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/tomato.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Tomato</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹40</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fadb0b368d200ac6439a&#34;,&#34;name&#34;:&#34;Tomato&#34;,&#34;image&#34;:&#34;tomato.png&#34;,&#34;price&#34;:40,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Carrot</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹50</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:50,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/Chilli.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Chilli</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹30</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:30,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/garlic.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Garlic</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹30</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:30,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/sem.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Sem</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹40</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:40,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/lemon.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Lemon</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹50</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:50,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/Litchi.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Litchi</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹30</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:30,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/banana.png" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Banana</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1KG</option>
+                    <option value="2">2KG</option>
+                    <option value="3">3KG</option>
+                    <option value="3">4KG</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹40</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:40,&#34;size&#34;:&#34;1 KG&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-64">
+            <div class="geeks"><img class="h-40 mb-4 mx-auto" src="/img/product-8.jpg" alt=""></div>
+            <!-- <img class="h-40 mb-4 mx-auto" src="/img/Carrot.png" alt=""> -->
+            <div class="text-center">
+                <h2 class="mb-4 text-lg">Juices</h2>
+                <span class="font-bold text-lg">Quantity:</span>
+                <select class="size py-1 px-4 rounded-full uppercase text-xs">
+                    <option value="1">1 Glass</option>
+                    <option value="2">2 Glass</option>
+                    <option value="3">3 Glass</option>
+                    <option value="3">4 Glass</option>
+                </select>
+                <div class="flex items-center justify-around mt-6">
+                    <span class="font-bold text-lg">₹60</span>
+                    <button
+                        data-pizza="{&#34;_id&#34;:&#34;6377fb170b368d200ac6439b&#34;,&#34;name&#34;:&#34;Carrot&#34;,&#34;image&#34;:&#34;Carrot.png&#34;,&#34;price&#34;:60,&#34;size&#34;:&#34;1 Glass&#34;}"
+                        class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold" id="add2">
+                        <span>+</span>
+                        <span class="ml-4">Add</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/app.js"></script>
+</body>
+
+</html>
