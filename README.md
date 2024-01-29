@@ -23,18 +23,28 @@ I have using a full stack technologoies.
 
 ## Screenshots:
 ### Register Page:
-![Screenshot 2024-01-10 162718](https://github.com/aman8440/GreenSFS/assets/82088006/6b7c14e8-3ec5-4f05-b644-a262f8ef891a)
+![Screenshot 2024-01-10 162718](https://github.com/aman8440/GreenSFS/assets/82088006/0fc14b96-5f09-4722-93b2-230bfc6360c4)
 
 
 ### Login Page:
-![Screenshot 2024-01-10 162755](https://github.com/aman8440/GreenSFS/assets/82088006/4e52be90-a37b-43e3-b6de-6b124cb8b8cd)
+![Screenshot 2024-01-10 162755](https://github.com/aman8440/GreenSFS/assets/82088006/c3203bcc-3220-48e8-b743-806a1625b158)
+
 
 ### Home Page:
+![Screenshot 2023-09-02 231535](https://github.com/aman8440/GreenSFS/assets/82088006/a7b33449-1268-4db0-a402-616cb9aaf57e)
+![Screenshot 2023-09-02 231658](https://github.com/aman8440/GreenSFS/assets/82088006/a722efae-3406-4e15-a096-0a459970d082)
 
-![Screenshot 2023-09-02 231535](https://github.com/aman8440/GreenSFS/assets/82088006/08faf2bf-1fac-425c-baed-8c9917144481)
 
-![Screenshot 2023-09-02 231658](https://github.com/aman8440/GreenSFS/assets/82088006/cc4ef7a3-6b3f-45e7-bdb4-f0eb4756c9ba)
-![Screenshot 2023-09-02 232341](https://github.com/aman8440/GreenSFS/assets/82088006/a53496b1-1a93-407e-981e-b7dab21f1ac7)
-![Screenshot 2023-09-02 232721](https://github.com/aman8440/GreenSFS/assets/82088006/a2d94636-0f4b-46f9-8c44-dd00e3131f25)
-![Screenshot 2023-09-02 232746](https://github.com/aman8440/GreenSFS/assets/82088006/9a818613-ede5-4a28-a5f7-5dea51da1120)
+### Order Summary:
+![Screenshot 2023-09-02 232341](https://github.com/aman8440/GreenSFS/assets/82088006/aabfaedf-68bc-42c5-ad57-b2080302dd26)
+
+
+### Order Details:
+![Screenshot 2023-09-02 232721](https://github.com/aman8440/GreenSFS/assets/82088006/9652b5b6-4430-49bd-b95d-a0d14772ad1b)
+
+
+### Tracking Delivery Status:
+![Screenshot 2023-09-02 232746](https://github.com/aman8440/GreenSFS/assets/82088006/a74a6047-ce0e-41ca-bfc5-a071ba2d53e9)
+
+
 
